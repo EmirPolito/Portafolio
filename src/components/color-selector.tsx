@@ -52,15 +52,17 @@ export function ColorSelector() {
     .map((t) => t.color);
 
   return (
-    <div className="relative size-full flex items-center justify-center cursor-pointer">
+    <>
       <button
         type="button"
         onClick={toggleTheme}
-        className="flex items-center justify-center size-full transition-colors rounded-3xl cursor-pointer"
+        className="absolute inset-0 z-10 w-full h-full cursor-pointer rounded-full outline-none"
         title="Alternar color de acento"
-      >
+        aria-label="Alternar color de acento"
+      />
+      <div className="relative size-full flex items-center justify-center pointer-events-none">
         <MotionPalette
-          className="size-5 md:size-6 cursor-pointer"
+          className="size-5 md:size-6"
           animate={
             isNeutral
               ? {
@@ -80,7 +82,7 @@ export function ColorSelector() {
               : { duration: 0.3 }
           }
         />
-      </button>
-    </div>
+      </div>
+    </>
   );
 }

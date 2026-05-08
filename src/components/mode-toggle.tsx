@@ -9,15 +9,17 @@ export function ModeToggle({ className }: { className?: string }) {
   const { theme, setTheme } = useTheme();
 
   return (
-    <Button
-      type="button"
-      variant="ghost"
-      size="icon"
-      className={cn("size-full", className)}
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-    >
-      <SunIcon className="h-full w-full block dark:hidden" />
-      <MoonIcon className="h-full w-full hidden dark:block" />
-    </Button>
+    <>
+      <button
+        type="button"
+        className="absolute inset-0 z-10 w-full h-full cursor-pointer rounded-full outline-none"
+        onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+        aria-label="Alternar tema oscuro y claro"
+      />
+      <div className="relative size-full flex items-center justify-center pointer-events-none">
+        <SunIcon className="size-5 md:size-6 block dark:hidden" />
+        <MoonIcon className="size-5 md:size-6 hidden dark:block" />
+      </div>
+    </>
   );
 }
