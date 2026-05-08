@@ -37,7 +37,7 @@ export default function Navbar() {
               <TooltipContent
                 side="top"
                 sideOffset={8}
-                className="rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
+                className="hidden sm:block rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
               >
                 <p>{item.label}</p>
                 <TooltipArrow className="fill-cards" />
@@ -70,7 +70,7 @@ export default function Navbar() {
                 <TooltipContent
                   side="top"
                   sideOffset={8}
-                  className="rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
+                  className="hidden sm:block rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
                 >
                   <p>{name}</p>
                   <TooltipArrow className="fill-cards" />
@@ -91,7 +91,7 @@ export default function Navbar() {
           <TooltipContent
             side="top"
             sideOffset={8}
-            className="rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
+            className="hidden sm:block rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
           >
             <p>Colores</p>
             <TooltipArrow className="fill-cards" />
@@ -106,7 +106,7 @@ export default function Navbar() {
           <TooltipContent
             side="top"
             sideOffset={8}
-            className="rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
+            className="hidden sm:block rounded-xl bg-cards text-txt px-4 py-2 text-sm shadow-[0_10px_40px_-10px_rgba(0,0,0,0.3)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)]"
           >
             <p>Tema</p>
             <TooltipArrow className="fill-cards" />
