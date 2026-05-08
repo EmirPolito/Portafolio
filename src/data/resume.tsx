@@ -257,7 +257,7 @@ export const DATA = {
       location: "Santander O.A",
       description:
         "Desarrollo de habilidades para analizar situaciones complejas, identificar oportunidades de mercado y diseñar planes de acción a largo plazo.",
-      image: "/icons/santander.webp",
+      image: "/icons/santander.jpg",
       links: [
         {
           title: "Vista en miniatura",
@@ -276,7 +276,7 @@ export const DATA = {
       location: "F. Carlos Slim",
       description:
         "Aprendizaje de los conceptos básicos de inteligencia artificial, redes neuronales y aprendizaje automático aplicados a la resolución de problemas reales.",
-      image: "/icons/slim.webp",
+      image: "/icons/Capacitate.png",
       links: [
         {
           title: "Mostrar credencial",
@@ -296,7 +296,7 @@ export const DATA = {
       location: "F. Carlos Slim",
       description:
         "Certificación en metodologías de prueba de software, aseguramiento de calidad y detección sistemática de errores para garantizar productos digitales estables.",
-      image: "/icons/slim.webp",
+      image: "/icons/Capacitate.png",
       links: [
         {
           title: "Mostrar credencial",
