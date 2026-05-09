@@ -55,10 +55,10 @@ function CertificationCard({
           <img
             src={certification.image}
             alt={certification.title}
-            className="size-8 sm:size-10 bg-card z-10 shrink-0 overflow-hidden p-1.5 border rounded-full shadow ring-2 ring-titulos/30 object-contain flex-none"
+            className="size-10 sm:size-11 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-titulos/30 object-contain flex-none"
           />
         ) : (
-          <div className="size-8 sm:size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-titulos/30 flex-none" />
+          <div className="size-10 sm:size-11 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-titulos/30 flex-none" />
         )}
       </TimelineConnectItem>
       <div className="flex flex-1 flex-col justify-start gap-1 min-w-0">
