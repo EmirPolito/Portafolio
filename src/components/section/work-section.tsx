@@ -16,7 +16,7 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
 
   if (!src || imageError) {
     return (
-      <div className="size-8 md:size-10.5 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
+      <div className="size-8 md:size-10.5 p-1 border rounded-full shadow ring-2 ring-titulos/30 bg-muted flex-none" />
     );
   }
 
@@ -24,7 +24,7 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
     <img
       src={src}
       alt={alt}
-      className="size-8 md:size-10.5 p-1 border rounded-full shadow ring-2 ring-border overflow-hidden object-contain flex-none"
+      className="size-8 md:size-10.5 p-1 border rounded-full shadow ring-2 ring-titulos/30 overflow-hidden object-contain flex-none"
       onError={() => setImageError(true)}
     />
   );
@@ -84,11 +84,14 @@ export default function WorkSection() {
               </div>
             </div>
           </AccordionTrigger>
-          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground prose dark:prose-invert max-w-full">
+          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground prose dark:prose-invert max-w-full marker:text-titulos">
             <Markdown
               components={{
                 strong: ({ node, ...props }) => (
                   <strong className="text-titulos font-bold" {...props} />
+                ),
+                li: ({ node, ...props }) => (
+                  <li className="marker:text-titulos" {...props} />
                 ),
               }}
             >

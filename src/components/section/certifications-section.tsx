@@ -55,10 +55,10 @@ function CertificationCard({
           <img
             src={certification.image}
             alt={certification.title}
-            className="size-8 sm:size-10 bg-card z-10 shrink-0 overflow-hidden p-1.5 border rounded-full shadow ring-2 ring-border object-contain flex-none"
+            className="size-8 sm:size-10 bg-card z-10 shrink-0 overflow-hidden p-1.5 border rounded-full shadow ring-2 ring-titulos/30 object-contain flex-none"
           />
         ) : (
-          <div className="size-8 sm:size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex-none" />
+          <div className="size-8 sm:size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-titulos/30 flex-none" />
         )}
       </TimelineConnectItem>
       <div className="flex flex-1 flex-col justify-start gap-1 min-w-0">
@@ -142,7 +142,7 @@ export default function CertificationsSection() {
   }, []);
 
   return (
-    <section id="certifications" className="overflow-hidden">
+    <section id="certifications">
       <div className="flex min-h-0 flex-col gap-y-7.5 w-full">
         <div className="flex flex-col gap-y-4 items-center justify-center">
           <div className="flex items-center w-full">
@@ -188,6 +188,7 @@ export default function CertificationsSection() {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.9, opacity: 0 }}
+                  transition={{ type: "spring", stiffness: 1000, damping: 50, mass: 0.1 }}
                   className="relative max-w-[95vw] max-h-[95vh] flex items-center justify-center pointer-events-none"
                 >
                   <img

@@ -94,10 +94,10 @@ function HackathonCard({
           <img
             src={hackathon.image}
             alt={hackathon.title}
-            className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border object-contain flex-none"
+            className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-titulos/30 object-contain flex-none"
           />
         ) : (
-          <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex-none" />
+          <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-titulos/30 flex-none" />
         )}
       </TimelineConnectItem>
       <div className="flex flex-1 flex-col justify-start gap-2 min-w-0">
@@ -139,7 +139,7 @@ function HackathonCard({
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.2, ease: "circOut" }}
+                    transition={{ type: "spring", stiffness: 1000, damping: 50, mass: 0.1 }}
                     className="overflow-hidden"
                   >
                     <div className="p-2  rounded-sm w-fit flex justify-start">
@@ -203,7 +203,7 @@ export default function HackathonsSection() {
   }, []);
 
   return (
-    <section id="hackathons" className="overflow-hidden">
+    <section id="hackathons">
       <div className="flex min-h-0 flex-col gap-y-8 w-full">
         <div className="flex flex-col gap-y-4 items-center justify-center">
           <div className="flex items-center w-full">
@@ -254,6 +254,7 @@ export default function HackathonsSection() {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.9, opacity: 0 }}
+                  transition={{ type: "spring", stiffness: 1000, damping: 50, mass: 0.1 }}
                   className="relative max-w-[95vw] max-h-[95vh] flex items-center justify-center pointer-events-none"
                 >
                   <img
