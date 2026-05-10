@@ -143,7 +143,7 @@ export default function CertificationsSection() {
 
   return (
     <section id="certifications">
-      <div className="flex min-h-0 flex-col gap-y-7.5 w-full">
+      <div className="flex min-h-0 flex-col gap-y-7.5 w-full py-4.5 md:py-2">
         <div className="flex flex-col gap-y-4 items-center justify-center">
           <div className="flex items-center w-full">
             <div className="flex-1 h-px bg-linear-to-r from-transparent from-5% via-border via-95% to-transparent" />
@@ -188,7 +188,12 @@ export default function CertificationsSection() {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.9, opacity: 0 }}
-                  transition={{ type: "spring", stiffness: 1000, damping: 50, mass: 0.1 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 1000,
+                    damping: 50,
+                    mass: 0.1,
+                  }}
                   className="relative max-w-[95vw] max-h-[95vh] flex items-center justify-center pointer-events-none"
                 >
                   <img
