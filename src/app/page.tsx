@@ -69,12 +69,7 @@ export default function Page() {
                 key={`${education.school}-${index}`}
                 delay={BLUR_FADE_DELAY * 8 + index * 0.05}
               >
-                <Link
-                  href={education.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-x-0 justify-between group"
-                >
+                <div className="flex items-center gap-x-0 justify-between group">
                   <div className="flex items-start sm:items-center gap-x-2.5 flex-1 min-w-0">
                     {education.logoUrl ? (
                       <img
@@ -96,10 +91,6 @@ export default function Page() {
                         <span className="whitespace-pre sm:whitespace-normal">
                           {education.school}
                         </span>
-                        <ArrowUpRight
-                          className="h-3.5 w-3.5 text-muted-foreground opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200 mt-1 sm:mt-0 flex-shrink-0"
-                          aria-hidden
-                        />
                       </div>
 
                       {/* TSU en TI , Ing en TI */}
@@ -114,7 +105,7 @@ export default function Page() {
                       {education.start} - {education.end}
                     </span>
                   </div>
-                </Link>
+                </div>
               </BlurFade>
             ))}
           </div>
@@ -124,17 +115,30 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-titulos text-xl font-bold">Habilidades</h2>
+            <h2 className="text-titulos text-xl font-bold">Tecnologias</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-3.5 md:gap-3 justify-center md:justify-start">
+          <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-2 md:gap-3 justify-center md:justify-start">
             {DATA.skills.map((skill, id) => (
               <BlurFade
                 key={skill.name}
                 delay={BLUR_FADE_DELAY * 10 + id * 0.05}
               >
-                <div className="flex items-center justify-center w-[120px] sm:w-[106px] gap-1.5 sm:gap-1 px-2.5 sm:px-1 py-2.5 rounded-lg border border-bordes bg-card/50 hover:bg-muted hover:border-muted-foreground/20 transition-all duration-300 group">
+                <div className="flex items-center justify-center w-full sm:w-[106px] gap-1 sm:gap-1 px-1 py-2.5 rounded-lg border border-bordes bg-card/50 hover:bg-muted hover:border-muted-foreground/20 transition-all duration-300 group">
                   {skill.icon && (
-                    <div className="relative size-4.5 flex items-center justify-center">
+                    <div
+                      className={cn(
+                        "relative size-4 flex items-center justify-center",
+                        ["JavaScript", "TypeScript", "TailwindCSS"].includes(
+                          skill.name,
+                        )
+                          ? ""
+                          : skill.name === "Git"
+                            ? "-translate-x-1.5"
+                            : skill.name === "MongoDB"
+                              ? "-translate-x-0.5"
+                              : "-translate-x-1",
+                      )}
+                    >
                       <img
                         src={skill.icon}
                         alt={skill.name}
@@ -153,7 +157,7 @@ export default function Page() {
                     </div>
                   )}
                   {skill.name && (
-                    <span className="text-xs font-medium text-foreground/90 group-hover:text-foreground transition-colors">
+                    <span className="text-[11px] sm:text-xs font-medium text-foreground/90 group-hover:text-foreground transition-colors truncate">
                       {skill.name}
                     </span>
                   )}

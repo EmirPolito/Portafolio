@@ -89,6 +89,14 @@ function HackathonCard({
       key={hackathon.title + hackathon.dates}
       className="w-full flex items-start justify-between gap-6"
     >
+      {/* Preload de imágenes para que carguen al instante al abrir "Evidencia" */}
+      <div className="hidden">
+        {hackathon.links?.map((link: any, linkIdx: number) =>
+          link.images?.map((img: any, imgIdx: number) => (
+            <img key={`${linkIdx}-${imgIdx}`} src={img.url} alt="preload" />
+          )),
+        )}
+      </div>
       <TimelineConnectItem className="flex items-start justify-center">
         {hackathon.image ? (
           <img
@@ -139,7 +147,10 @@ function HackathonCard({
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ type: "spring", stiffness: 1000, damping: 50, mass: 0.1 }}
+                    transition={{
+                      duration: 0.2,
+                      ease: "easeInOut"
+                    }}
                     className="overflow-hidden"
                   >
                     <div className="p-2  rounded-sm w-fit flex justify-start">
@@ -254,7 +265,12 @@ export default function HackathonsSection() {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.9, opacity: 0 }}
-                  transition={{ type: "spring", stiffness: 1000, damping: 50, mass: 0.1 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 1000,
+                    damping: 50,
+                    mass: 0.1,
+                  }}
                   className="relative max-w-[95vw] max-h-[95vh] flex items-center justify-center pointer-events-none"
                 >
                   <img

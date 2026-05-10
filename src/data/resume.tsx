@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Técnico en TI con sólida experiencia en desarrollo frontend, control de calidad (QA) y la creación de experiencias web dinámicas, priorizando la experiencia del usuario.",
   summary:
-    "Me interesa el **desarrollo frontend** ya que es la parte donde el usuario decide cómo percibe un producto por su **diseño**, **accesibilidad** y **funcionalidad**. Disfruto desarrollar interfaces claras y eficientes, complementando **control de calidad (QA)** para asegurar que cada detalle funcione correctamente y brinde una buena experiencia.",
+    "Interesado en el **desarrollo frontend** ya que es la parte donde el usuario decide cómo percibe un producto por su **diseño**, **accesibilidad** y **funcionalidad**. Disfruto desarrollar interfaces claras y eficientes, complementando de la mano del **control de calidad (QA)** para asegurar que cada detalle funcione correctamente.",
   avatarUrl: "/perfil2.png",
   skills: [
     { name: "HTML", icon: "/icons/html5.svg" },
@@ -141,7 +141,7 @@ export const DATA = {
       dates: "En desarrollo",
       active: true,
       description:
-        "RALQ 4 es una plataforma educativa que permite a los estudiantes explorar y comprender modelos de instrumentos de laboratorio de química y moléculas en 3D mediante Realidad Aumentada, mejorando el aprendizaje sin necesidad de un laboratorio físico, mas optimizada para un mejor rendimiento y escalabilidad.",
+        "RALQ 4 es una plataforma web educativa que permite a los estudiantes explorar instrumentos de laboratorio de química y moléculas en 3D mediante Realidad Aumentada, facilitando un aprendizaje más interactivo sin necesidad de un laboratorio físico.",
       technologies: [
         "React",
         "Next.js",
@@ -171,7 +171,7 @@ export const DATA = {
       dates: "Octubre 2025",
       active: true,
       description:
-        "Arcoms 1 es una landing page inmersiva con una interfaz futurista y entornos visuales dinámicos. Integra animaciones, modelos 3D interactivos y un sistema de temas personalizable para ofrecer una experiencia atractiva y visualmente impactante desde el primer momento.",
+        "Arcoms 1 es una landing page con una interfaz futurista y entornos visuales dinámicos. Integra animaciones, modelos 3D interactivos y un sistema de temas personalizables para ofrecer una experiencia atractiva y visualmente impactante desde el primer momento.",
       technologies: [
         "Next.js",
         "React",
@@ -179,7 +179,6 @@ export const DATA = {
         "TailwindCSS",
         "Spline",
         "Framer Motion",
-        "Lucide React",
         "Radix UI",
       ],
       links: [
@@ -204,7 +203,7 @@ export const DATA = {
       dates: "Julio 2025",
       active: true,
       description:
-        "RALQ-2 es una plataforma educativa enfocada en la enseñanza de química sin laboratorio físico. Inicié su desarrollo con tecnologías base, lo que me permitió entender los fundamentos del desarrollo web. Posteriormente, migré el proyecto a Next.js, mejorando su estructura, escalabilidad y rendimiento.",
+        "RALQ-2 es una plataforma educativa enfocada en la enseñanza de química sin necesidad de un laboratorio físico. Inicié su desarrollo con tecnologías base y posteriormente migré el proyecto a Next.js para mejorar su estructura, rendimiento y escalabilidad.",
       technologies: [
         "HTML",
         "CSS",
@@ -257,7 +256,7 @@ export const DATA = {
       location: "Santander O.A",
       description:
         "Desarrollo de habilidades para analizar situaciones complejas, identificar oportunidades de mercado y diseñar planes de acción a largo plazo.",
-      image: "/icons/santander.jpg",
+      image: "/icons/Santander.png",
       links: [
         {
           title: "Vista en miniatura",
@@ -317,7 +316,7 @@ export const DATA = {
       dates: "Marzo 2025",
       location: "Coatzacoalcos, Veracruz.",
       description:
-        "Participe en el concurso Infomatrix 2025 (Veracruz Sur) con el proyecto RALQ (Realidad Aumentada para Laboratorios de Quimica). Esta herramienta permite visualizar instrumentos y moleculas 3D en Realidad Aumentada, facilitando el aprendizaje práctico de la química en entornos educativos mediante dispositivos móviles.",
+        "Partici en el concurso Infomatrix 2025 Veracruz Sur presentando RALQ, una plataforma educativa en Realidad Aumentada que permite explorar instrumentos de laboratorio y moléculas en 3D, haciendo más accesible e interactivo el aprendizaje de química desde dispositivos móviles.",
       image: "/solacyt.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links: [
@@ -347,7 +346,7 @@ export const DATA = {
       dates: "Junio 2025",
       location: "Nanchital, UTSV, Veracruz.",
       description:
-        "Primer lugar en la Expo TI por el desarrollo de RALQ, una plataforma educativa que mejora el aprendizaje mediante la visualización de estructuras 3D. Esta participación resalto la innovación técnica y el impacto educativo de la herramienta en el ámbito académico.",
+        "Primer lugar en la Expo TI por el desarrollo de RALQ, una plataforma educativa enfocada en la visualización de estructuras 3D para apoyar el aprendizaje de química. El proyecto destacó por su innovación tecnológica y su impacto en el ámbito educativo.",
       image: "/utsv.jpg",
       links: [
         {
