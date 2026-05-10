@@ -141,7 +141,7 @@ export const DATA = {
       dates: "En desarrollo",
       active: true,
       description:
-        "RALQ 4 es una plataforma web educativa que permite a los estudiantes explorar instrumentos de laboratorio de química y moléculas en 3D mediante Realidad Aumentada, facilitando un aprendizaje más interactivo sin necesidad de un laboratorio físico.",
+        "RALQ 4 es una plataforma web educativa que permite a los estudiantes aprender sobre los instrumentos de laboratorio de química y moléculas en 3D mediante Realidad Aumentada, facilitando el aprendizaje sin la necesidad de estar en un laboratorio físico.",
       technologies: [
         "React",
         "Next.js",
@@ -171,7 +171,7 @@ export const DATA = {
       dates: "Octubre 2025",
       active: true,
       description:
-        "Arcoms 1 es una landing page con una interfaz futurista y entornos visuales dinámicos. Integra animaciones, modelos 3D interactivos y un sistema de temas personalizables para ofrecer una experiencia atractiva y visualmente impactante desde el primer momento.",
+        "Arcoms 1 es una landing page desarrollada con una estética futurista y una experiencia interactiva enfocada en el impacto visual. Incorpora animaciones dinámicas, modelos 3D y personalización de temas para brindar una interfaz moderna, atractiva e inmersiva.",
       technologies: [
         "Next.js",
         "React",
