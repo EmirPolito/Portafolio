@@ -19,16 +19,15 @@ export const DATA = {
 
     { name: "JavaScript", icon: "/icons/javascript.svg" },
     { name: "TypeScript", icon: "/icons/typescript.svg" },
-
     {
       name: "React",
       icon: "/icons/react_light.svg",
       darkIcon: "/icons/react_dark.svg",
     },
-    { name: "Next.js", icon: "/icons/nextjs_icon_dark.svg" },
 
     { name: "npm", icon: "/icons/npm.svg" },
     { name: "pnpm", icon: "/icons/pnpm.svg" },
+    { name: "Next.js", icon: "/icons/nextjs_icon_dark.svg" },
 
     { name: "Git", icon: "/icons/git.svg" },
     {
