@@ -8,7 +8,7 @@ export const DATA = {
   location: "Veracruz, México",
   locationLink: "https://www.google.com/maps/place/Veracruz",
   description:
-    "Técnico en TI con sólida experiencia en desarrollo frontend, control de calidad (QA) y la creación de experiencias web dinámicas, priorizando la experiencia del usuario.",
+    "Técnico en TI con sólida experiencia en el desarrollo frontend, control de calidad (QA) y la creación de experiencias web dinámicas, priorizando la experiencia del usuario.",
   summary:
     "Interesado en el **desarrollo frontend** ya que es la parte donde el usuario decide cómo percibe un producto por su **diseño**, **accesibilidad** y **funcionalidad**. Disfruto desarrollar interfaces claras y eficientes, complementando de la mano del **control de calidad (QA)** para asegurar que cada detalle funcione correctamente.",
   avatarUrl: "/perfil2.png",

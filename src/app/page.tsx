@@ -29,7 +29,7 @@ export default function Page() {
                 text={`Hola, soy  ${DATA.name.split("  ")[0]}`}
               />
               <BlurFadeText
-                className="text-descripciones md:max-w-[900px] text-base md:text-lg text-pretty font-sans leading-relaxed"
+                className="text-descripciones md:max-w-[900px] text-base md:text-lg text-justify font-sans leading-relaxed"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
