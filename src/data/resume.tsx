@@ -15,6 +15,7 @@ export const DATA = {
   skills: [
     { name: "HTML", icon: "/icons/html5.svg" },
     { name: "CSS", icon: "/icons/css_old.svg" },
+    { name: "TailwindCSS", icon: "/icons/tailwindcss.svg" },
 
     { name: "JavaScript", icon: "/icons/javascript.svg" },
     { name: "TypeScript", icon: "/icons/typescript.svg" },
@@ -26,9 +27,6 @@ export const DATA = {
     },
     { name: "Next.js", icon: "/icons/nextjs_icon_dark.svg" },
 
-    { name: "TailwindCSS", icon: "/icons/tailwindcss.svg" },
-    { name: "Node.js", icon: "/icons/nodejs.svg" },
-
     { name: "npm", icon: "/icons/npm.svg" },
     { name: "pnpm", icon: "/icons/pnpm.svg" },
 
@@ -38,6 +36,8 @@ export const DATA = {
       icon: "/icons/github_light.svg",
       darkIcon: "/icons/github_dark.svg",
     },
+
+    { name: "Node.js", icon: "/icons/nodejs.svg" },
 
     {
       name: "MySQL",
