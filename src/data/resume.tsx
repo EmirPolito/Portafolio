@@ -224,7 +224,7 @@ export const DATA = {
         },
       ],
       image: "/proyectos/RALQ-2.png",
-      video: "",
+      video: "/videos/RALQ-2.mp4",
     },
   ],
 
