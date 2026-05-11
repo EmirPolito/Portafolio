@@ -48,7 +48,7 @@ export default function WorkSection() {
                 <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
                   {/* Mobile Date */}
                   <div className="sm:hidden mb-0.5 flex">
-                    <span className="text-xs tabular-nums text-muted-foreground">
+                    <span className="text-xs font-normal tabular-nums text-descripciones">
                       {work.start} - {work.end ?? "Present"}
                     </span>
                   </div>
@@ -72,7 +72,7 @@ export default function WorkSection() {
                       />
                     </span>
                   </div>
-                  <div className="font-sans text-sm text-muted-foreground">
+                  <div className="font-normal text-sm text-descripciones">
                     {work.title}
                   </div>
                 </div>

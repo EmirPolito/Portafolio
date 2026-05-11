@@ -49,7 +49,7 @@ export default function Page() {
         <div className="flex min-h-0 flex-col gap-y-3.5">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-titulos text-xl font-bold">
-              Experiencia laboral
+              Experiencia profesional
             </h2>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
