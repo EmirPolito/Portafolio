@@ -6,13 +6,12 @@ Construido con Next.js, [shadcn/ui](https://ui.shadcn.com/), y [magic ui](https:
 <h2>Características</h2>
 </div>
 
-- Desarrollado con Next.js, React, TypeScript, Shadcn/UI, TailwindCSS, Framer Motion y Magic UI
+- Desarrollado con Next.js, React, TypeScript, TailwindCSS, Shadcn/UI, Framer Motion y Magic UI
 - La configuración solo lleva unos minutos editando el [archivo de configuración](./src/data/resume.tsx)
 - Diseño adaptable a diferentes dispositivos con optimización responsiva
 - Personalizador de temas dinámico con múltiples colores
 - Optimizado para Next.js y Vercel
 - Incluye un blog (opcional)
-
 
 <div aligh=left>
 <h2>Primeros pasos a nivel local</h2>
@@ -43,7 +42,6 @@ Construido con Next.js, [shadcn/ui](https://ui.shadcn.com/), y [magic ui](https:
    ```
 
 5. Abre el archivo de [configuración](./src/data/resume.tsx) y personaliza tus datos.
-
 
 <div aligh=left>
 <h2>Licencia</h2>
