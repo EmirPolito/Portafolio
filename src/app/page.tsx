@@ -12,7 +12,6 @@ import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
 import { cn } from "@/lib/utils";
-
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
