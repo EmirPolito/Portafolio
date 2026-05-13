@@ -21,7 +21,8 @@ export function ColorSelector() {
   const [currentTheme, setCurrentTheme] = useState("neutral");
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("portfolio-color-theme") || "neutral";
+    const savedTheme =
+      localStorage.getItem("portfolio-color-theme") || "neutral";
     setCurrentTheme(savedTheme);
     if (savedTheme !== "neutral") {
       document.documentElement.setAttribute("data-theme", savedTheme);

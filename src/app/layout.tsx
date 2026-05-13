@@ -84,9 +84,11 @@ export default function RootLayout({
                 }}
               />
             </div>
+
             <div className="relative z-10 max-w-4xl mx-auto py-12 pb-24 sm:py-21 px-6">
               {children}
             </div>
+
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
