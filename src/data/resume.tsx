@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { en } from "zod/v4/locales";
 
 export const DATA = {
   name: "Emir Polito",
@@ -311,39 +312,9 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Infomatrix",
-      dates: "Marzo 2025",
-      location: "Coatzacoalcos, Veracruz.",
-      description:
-        "Partici en el concurso Infomatrix 2025 Veracruz Sur presentando RALQ, una plataforma educativa en Realidad Aumentada que permite explorar instrumentos de laboratorio y moléculas en 3D, haciendo más accesible e interactivo el aprendizaje de química desde dispositivos móviles.",
-      image: "/solacyt.webp",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Repositorio",
-          icon: <Icons.github className="size-3" />,
-          href: "https://github.com/EmirPolito/RALQ-2",
-        },
-        {
-          title: "Evidencia",
-          icon: <Icons.globe className="size-3" />,
-          images: [
-            {
-              url: "/infomatrix/reconocimiento-infomatrix.jpeg",
-              title: "Reconocimiento",
-            },
-            {
-              url: "/infomatrix/img-infomatrix.jpeg",
-              title: "foto",
-            },
-          ],
-        },
-      ],
-    },
-    {
       title: "1er Lugar Expo TI - Contaduria",
       dates: "Junio 2025",
-      location: "Nanchital, UTSV, Veracruz.",
+      location: "Nanchital, Veracruz - UTSV",
       description:
         "Primer lugar en la Expo TI por el desarrollo de RALQ, una plataforma educativa enfocada en la visualización de estructuras 3D para apoyar el aprendizaje de química. El proyecto destacó por su innovación tecnológica y su impacto en el ámbito educativo.",
       image: "/utsv.jpg",
@@ -351,7 +322,7 @@ export const DATA = {
         {
           title: "Repositorio",
           icon: <Icons.github className="size-3" />,
-          href: "https://github.com/EmirPolito/RALQ-2",
+          href: "https://github.com/EmirPolito/RALQ",
         },
         {
           title: "Evidencia",
@@ -362,6 +333,79 @@ export const DATA = {
               title: "Evento",
             },
           ],
+        },
+        {
+          title: "Demo",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://ralq-emirpolito.wasmer.app/",
+        },
+      ],
+    },
+    {
+      title: "Infomatrix",
+      dates: "Marzo 2025",
+      location: "Coatzacoalcos, Veracruz - ITESCO",
+      description:
+        "Partici en el concurso Infomatrix 2025 Veracruz Sur presentando RALQ, una plataforma educativa en Realidad Aumentada que permite explorar instrumentos de laboratorio y moléculas en 3D, haciendo más accesible e interactivo el aprendizaje de química desde dispositivos móviles.",
+      image: "/solacyt.webp",
+      links: [
+        {
+          title: "Repositorio",
+          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/EmirPolito/RALQ",
+        },
+        {
+          title: "Evidencia",
+          icon: <Icons.globe className="size-3" />,
+          images: [
+            {
+              url: "/infomatrix/reconocimiento-infomatrix.jpeg",
+              title: "Reconocimiento",
+            },
+            {
+              url: "/infomatrix/infomatrix.jpg",
+              title: "foto",
+            },
+          ],
+        },
+        {
+          title: "Demo",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://ralq-emirpolito.wasmer.app/",
+        },
+      ],
+    },
+    {
+      title: "Demostración de Proyecto RALQ",
+      dates: "Agosto 2024",
+      location: "Nanchital, Veracruz - COBAEV 34",
+      description:
+        "Presentación y demostración de RALQ, una plataforma educativa en Realidad Aumentada para visualizar moléculas e instrumentos de laboratorio en 3D. El proyecto fue expuesto en el COBAEV 34, donde los estudiantes pudieron interactuar con la plataforma y conocer una forma más visual e interactiva de aprender química.",
+      image: "/cobaev.jpg",
+      links: [
+        {
+          title: "Repositorio",
+          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/EmirPolito/RALQ",
+        },
+        {
+          title: "Evidencia",
+          icon: <Icons.globe className="size-3" />,
+          images: [
+            {
+              url: "/demostracion/reconocimiento.png",
+              title: "Reconocimiento",
+            },
+            {
+              url: "/demostracion/demostracion.jpg",
+              title: "foto",
+            },
+          ],
+        },
+        {
+          title: "Demo",
+          icon: <Icons.globe className="size-3" />,
+          href: "https://ralq-emirpolito.wasmer.app/",
         },
       ],
     },
