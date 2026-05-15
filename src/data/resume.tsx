@@ -135,12 +135,12 @@ export const DATA = {
 
   projects: [
     {
-      title: "RALQ 4",
-      href: "https://ralq-4-next-js.vercel.app/",
+      title: "RALQ 2",
+      href: "https://ralq-2.vercel.app/",
       dates: "En desarrollo",
       active: true,
       description:
-        "RALQ 4 es una plataforma web educativa que permite a los estudiantes aprender sobre los instrumentos de laboratorio de química y moléculas en 3D mediante Realidad Aumentada, facilitando el aprendizaje sin la necesidad de estar en un laboratorio físico.",
+        "RALQ 2 es una plataforma web educativa que permite a los estudiantes aprender sobre los instrumentos de laboratorio de química y moléculas en 3D mediante Realidad Aumentada, facilitando el aprendizaje sin la necesidad de estar en un laboratorio físico.",
       technologies: [
         "React",
         "Next.js",
@@ -152,17 +152,17 @@ export const DATA = {
       links: [
         {
           type: "Demo",
-          href: "https://ralq-4-next-js.vercel.app/",
+          href: "https://ralq-2.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Repositorio",
-          href: "https://github.com/EmirPolito/RALQ-4-Next.js",
+          href: "https://github.com/EmirPolito/RALQ-2",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/proyectos/RALQ-2.png",
-      video: "/videos/RALQ-4-Video.mp4",
+      video: "/videos/RALQ-2.mp4",
     },
     {
       title: "Arcoms 1",
@@ -197,12 +197,12 @@ export const DATA = {
     },
 
     {
-      title: "RALQ 2",
-      href: "",
+      title: "RALQ",
+      href: "https://ralq.wasmer.app/",
       dates: "Julio 2025",
       active: true,
       description:
-        "RALQ-2 es una plataforma educativa enfocada en la enseñanza de química sin necesidad de un laboratorio físico. Inicié su desarrollo con tecnologías base y posteriormente migré el proyecto a Next.js para mejorar su estructura, rendimiento y escalabilidad.",
+        "RALQ es una plataforma educativa enfocada en la enseñanza de química sin necesidad de un laboratorio físico. Inicié su desarrollo con tecnologías base y posteriormente migré el proyecto a Next.js para mejorar su estructura, rendimiento y escalabilidad.",
       technologies: [
         "HTML",
         "CSS",
@@ -214,17 +214,17 @@ export const DATA = {
       links: [
         {
           type: "Demo",
-          href: "https://ralq-2.wasmer.app/",
+          href: "https://ralq.wasmer.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Repositorio",
-          href: "https://github.com/EmirPolito/RALQ-2",
+          href: "https://github.com/EmirPolito/RALQ",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/proyectos/RALQ-2.png",
-      video: "/videos/RALQ-2.mp4",
+      image: "/proyectos/RALQ.png",
+      video: "/videos/RALQ.mp4",
     },
   ],
 
