@@ -161,7 +161,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/proyectos/RALQ-4.png",
+      image: "/proyectos/RALQ-2.png",
       video: "/videos/RALQ-4-Video.mp4",
     },
     {
