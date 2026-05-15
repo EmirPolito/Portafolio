@@ -198,7 +198,7 @@ export const DATA = {
 
     {
       title: "RALQ",
-      href: "https://ralq.wasmer.app/",
+      href: "https://ralq-emirpolito.wasmer.app/",
       dates: "Julio 2025",
       active: true,
       description:
@@ -214,7 +214,7 @@ export const DATA = {
       links: [
         {
           type: "Demo",
-          href: "https://ralq.wasmer.app/",
+          href: "https://ralq-emirpolito.wasmer.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
