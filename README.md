@@ -1,12 +1,12 @@
 # Portafolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FEmirPolito%2Fportafolio)
 
-Construido con Next.js, [shadcn/ui](https://ui.shadcn.com/), y [magic ui](https://magicui.design/), desplegado en Vercel.
+Construido con Next.js, [Shadcn/ui](https://ui.shadcn.com/), y [Aceternity UI](https://ui.aceternity.com/), desplegado en Vercel.
 
 <div aligh=left>
 <h2>Características</h2>
 </div>
 
-- Desarrollado con Next.js, React, TypeScript, TailwindCSS, Shadcn/UI, Framer Motion y Magic UI
+- Desarrollado con Next.js, React, TypeScript, TailwindCSS, Shadcn/UI, Framer Motion y Aceternity UI
 - La configuración solo lleva unos minutos editando el [archivo de configuración](./src/data/resume.tsx)
 - Diseño adaptable a diferentes dispositivos con optimización responsiva
 - Personalizador de temas dinámico con múltiples colores
