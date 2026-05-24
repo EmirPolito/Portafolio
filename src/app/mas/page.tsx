@@ -14,7 +14,7 @@ export default function MasPage() {
   return (
     <main className="flex flex-col gap-10 sm:gap-13.5">
       {/* About Section */}
-      <section id="about">
+      {/* <section id="about">
         <div className="flex flex-col gap-y-2">
           <BlurFade delay={BLUR_FADE_DELAY}>
             <h1 className="text-titulos text-3xl font-bold tracking-tighter sm:text-4xl lg:text-5xl">
@@ -35,7 +35,7 @@ export default function MasPage() {
             </div>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
 
       {/* Certifications Section */}
       <section id="certifications">
