@@ -199,7 +199,7 @@ export const DATA = {
 
     {
       title: "RALQ",
-      href: "https://ralq-emirpolito.wasmer.app/",
+      href: "https://ralq-67031.wasmer.app/",
       dates: "Julio 2025",
       active: true,
       description:
@@ -215,7 +215,7 @@ export const DATA = {
       links: [
         {
           type: "Demo",
-          href: "https://ralq-emirpolito.wasmer.app/",
+          href: "https://ralq-67031.wasmer.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -332,7 +332,7 @@ export const DATA = {
         {
           title: "Demo",
           icon: <Icons.globe className="size-3" />,
-          href: "https://ralq-emirpolito.wasmer.app/",
+          href: "https://ralq-67031.wasmer.app/",
         },
         {
           title: "",
@@ -366,7 +366,7 @@ export const DATA = {
         {
           title: "Demo",
           icon: <Icons.globe className="size-3" />,
-          href: "https://ralq-emirpolito.wasmer.app/",
+          href: "https://ralq-67031.wasmer.app/",
         },
         {
           title: "",
@@ -400,7 +400,7 @@ export const DATA = {
         {
           title: "Demo",
           icon: <Icons.globe className="size-3" />,
-          href: "https://ralq-emirpolito.wasmer.app/",
+          href: "https://ralq-67031.wasmer.app/",
         },
         {
           title: "",
